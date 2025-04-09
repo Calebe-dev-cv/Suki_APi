@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4000;
 
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5000', '*'],
+  origin: ['http://localhost:3000', 'http://localhost:5000', 'https://sukisekai.com', 'https://backend.sukisekai.com'],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
